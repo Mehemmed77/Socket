@@ -70,4 +70,5 @@ class Server:
             a = Thread(target = self.rcv_and_send, args=(client,user[0]))
             a.start()
 
+print('salam')
 Server()
